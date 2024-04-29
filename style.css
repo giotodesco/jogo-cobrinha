@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body  {
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+canvas {
+    background-color: rgb(38, 38, 39);
+
+    color: rgb(193, 195, 197);
+    color: rgb(184, 184, 184);
+}
+#score {
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.score_value {
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+#menu_screen {
+    display: none;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
+}
+.gameover {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.score_value_over {
+    font-size: 3.4rem;
+    padding: 1rem;
+}
+.btn_play {
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(111, 251, 111);
+    font-size: 1.3rem;
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+}
+.btn_play:hover {
+    padding: 0.9rem;
+    background-color: rgb(84, 191, 84);
+}
+.btn_play:active {
+    background-color: rgb(63, 140, 63);
+    color: rgb(216, 213, 213);
+}
